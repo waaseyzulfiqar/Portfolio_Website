@@ -175,11 +175,13 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
     background: var(--snd-bf-color);
 }
 
 .about-img img{
-    width: 35vw;
+    width: 25vw;
+    border-radius: 20px;
 }
 
 .heading{
