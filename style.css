@@ -63,7 +63,7 @@ section{
 
 .navbar a:hover,
 .navbar a:active{
-    color: var(--text-color);
+    color: var(--main-color);
 }
 
 
@@ -169,6 +169,34 @@ span{
 }
 
 
+/* styling about section */
+
 .about{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--snd-bf-color);
+}
+
+.about-img img{
+    width: 35vw;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3{
+    font-size: 2.6rem;
+}
+
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
 }
