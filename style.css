@@ -75,6 +75,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 
 .home-content h3 {
@@ -223,7 +224,9 @@ span {
 }
 
 .services-box h3 {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+
 }
 
 .services-box p {
@@ -424,11 +427,11 @@ span {
     }
 
     .navbar {
-        /* display: none; */
+        display: none;
         position: absolute;
         top: 100%;
         left: 0;
-        width: 100%;
+        width: 100vw;
         padding: 1rem 3%;
         background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
@@ -490,6 +493,7 @@ span {
 
 @media (max-width: 620px) {
     .portfolio-container {
+        padding: 2rem;
         grid-template-columns: 1fr;
     }
 
@@ -509,7 +513,11 @@ span {
         font-size: 50%;
     }
 
-    .contact form .input-box input {
+    .contact form {
+        width: 90%;
+    }
+
+    .input-box input {
         width: 100%;
     }
 }
