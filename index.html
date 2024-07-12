@@ -51,7 +51,7 @@
           <a href=""><i class="fa-brands fa-facebook"></i></a>
           <a href=""><i class="fa-brands fa-twitter"></i></a>
           <a href=""><i class="fa-brands fa-instagram"></i></a>
-          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://linkedin.com/in/waaseyzulfiqar" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
 
         <a href="" class="btn">Download CV</a>
@@ -123,15 +123,6 @@
 
       <div class="portfolio-container">
         <div class="portfolio-box">
-          <img src="./assets/project-5.png" alt="" />
-          <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
           <img src="./assets/project-1.png" alt="" />
           <div class="portfolio-layer">
             <h4>Web Design</h4>
@@ -141,25 +132,34 @@
         </div>
 
         <div class="portfolio-box">
+          <img src="./assets/project-2.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="" alt="picture 3" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./assets/project-4.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
           <img src="./assets/project-5.png" alt="" />
-          <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="./assets/altumcode-PNbDkQ2DDgM-unsplash.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="./assets/altumcode-PNbDkQ2DDgM-unsplash.jpg" alt="" />
           <div class="portfolio-layer">
             <h4>Web Design</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -183,22 +183,25 @@
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me</span></h2>
 
-      <form action="#">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="afc1645b-37e2-47c3-94a7-7d1be0613218">
+
         <div class="input-box">
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email Address" />
+          <input type="text" required name="Full Name" placeholder="Full Name" />
+          <input type="email" required name="Email" placeholder="Email Address" />
         </div>
 
         <div class="input-box">
-          <input type="number" placeholder="Mobile Number" />
-          <input type="text" placeholder="Email Subject" />
+          <input type="number" required name="Phone Number" placeholder="Mobile Number" />
+          <input type="text" required name="subject" placeholder="Email Subject" />
         </div>
 
         <textarea
-          name=""
+          name="Message"
           id=""
           cols="30"
           rows="10"
+          required
           placeholder="Your Message"
         ></textarea>
         <input type="submit" value="Send Message" class="btn" />
